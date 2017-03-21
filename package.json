@@ -1,0 +1,21 @@
+{
+  "name": "bcoin-channel",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "bcoin": "halseth/bcoin#master",
+    "messenger": "*"
+  },
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "standard": "*",
+    "tape": "^4.0.0",
+    "zuul": "^3.8.0"
+  }
+}
